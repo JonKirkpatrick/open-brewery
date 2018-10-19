@@ -1,0 +1,47 @@
+Create a website/android app/iphone app/linux app to interface with a home beer brewery.  I'll start with a(n evolving) list of components:
+
+I will add info to these items by referencing them further down where necessary and adding/removing items when I want to add more or better functionality
+
+1. Clients
+	a. web
+	b. android
+	c. iphone
+	d. gtk
+2. Central Product Database
+	a. tables of ingredients and their specifications
+	b. supplier inventory (maybe not up to the minute yet, but general)
+	c. stored recipes
+	d. standardized equipment calibration data
+	e. user instance data per recipe corrected for standardization
+3. Local Instance and Calibration Database
+	a. conversion algorithms from the standardized equipment data
+	b. stored local brew instance tables
+	c. maybe local supplier info with up to date inventory??
+	d. instance data per recipe
+	e. local private recipe storage
+4. Hardware
+	a. allow for different configurations (herms, rims, BIAB, infusion)
+	b. brew kettle
+	c. mash tun
+	d. lauter tun
+	e. fermentation vessel(s)
+	f. heat sources and control
+	g. high temp food safe pumps
+	h. ventilation
+	i. microcontroller (for heat, pumps and sensor data)
+	j. server (to communicate between the other hardware and the client)
+
+Notes:
+
+2.a. The ingredients I'm currently considering are:
+	1: Malted Grains
+	2: Hops
+	3: Yeast
+There are certainly more considerations and I'll have to append additional categories as the project moves forward.
+
+3.e. Should it be stored locally using the standardized hardware profile or the local one?
+
+4.a. I'm hoping to achieve sufficiently accurate callibration to allow for translation of recipes from the main database without significant differences in the result.  The local server will use 2.d with 3.a to translate recipe instructions for use with the local hardware.
+
+
+more to come...
