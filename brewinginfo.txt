@@ -1,0 +1,7 @@
+For those unfamiliar with making beer, there's a great website containing John Palmer's seminal work "How to Brew"
+
+http://www.howtobrew.com
+
+He goes to great lengths to describe many of the intricacies of the process of turning grain into beer.  There's really no shortcut to understanding it, so I invite anyone who's interested in working towards an open brewing platform to digest as much of his work as possible and taking a stab at a brew.
+
+There may be some value in making beer from kits or malt extract, but for me it's malted grains all the way.  (I can't imagine malting my own grain at this point, but that may be the next logical step once I get the software and hardware worked out for this project.)
